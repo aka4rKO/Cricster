@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+     
+        <link rel="stylesheet" type = "text/css" href="css/commonStyle.css">
+        <link rel="stylesheet" type = "text/css" href = "css/MainQuiz.css">
+        
+    <title>
+        Cricster | Quiz 
+    </title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <script src="javascript/bottom.js"></script>
+    </head>  
+
+<body class="bg">
+    <!--Button to Top of the web page -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!--Showcase with the navigation bar-->
+	<div class="showcase">
+
+            <header>
+    
+            <!--Common top navigation and logo-->
+            <div class="commonTop">
+    
+                    <!-- Alligning purpose -->
+                    <div class="commonTop-width">
+        
+                        <!--Logo-->
+                        <div id="logoDiv">
+                            <img id="logo" src="images\NewLogo.png">
+                        </div>
+        
+                        <!--Navigation links-->
+                        <nav>
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="https://goo.gl/uaN9up" target="_blank">Images</a></li>
+                                <li><a href="MainQuiz.html">Quiz</a></li>
+                                <li><a href="store.html">Store</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            
+            
+            <!--Showcase image-->
+            <div id="showcaseText">
+                The Quiz!
+            </div>
+            <a class="btn1" href="Question.html">Start Quiz</a>
+        </div>
+ 
+        
+        
+        <div class="grid-container">
+            <div class="grid1">
+                <div class="txt1">
+                <p> <center>We are the group members who worked together to create this well 
+                    designed Web Site. This Site is about cricket. Here is a small Quiz based on Cricket.<br>
+                    <br>
+                         <b>Thankyou for visiting Our web Site!!!!</b>
+                    </center></p> 
+                </div>
+            </div>
+            
+            
+              
+            </div>
+                
+    <div class="grid-container">
+            <div class="header-grid">
+                
+               
+                
+                
+                
+            </div>
+        </div>
+    
+        <div class="grid-container">
+            <div class="footer-grid">
+                
+             <div class="gallery">
+
+                
+                <div class="img1">      <!-- Start of img1 -->
+        
+            <a target="_blank" href="images/Supun_Student2.jpg">
+                
+            <img class="image1" src="images/Supun_Student2.jpg" alt="Student1 Supun">
+                <span class="tooltiptext"> <b> I'm Supun Sandeeptha.</b><br> <i>( Student 1 )</i>
+                </span>
+            </a>
+         
+
+        </div>  <!-- End of img1 -->
+        
+        <div class="img2">      <!-- Start of img2 -->
+        
+            <a target="_blank" href="images/Akram_Student1.jpeg">
+                
+            <img class="image2" src="images/Akram_Student1.jpeg" alt="Student2 Akram">
+                <span class="tooltiptext"> <b> I'm Akram Azarm.</b><br> <i>( Student 2 )</i>
+                </span>
+                
+            </a>
+            
+
+        </div>  <!-- End of img2 -->
+            
+        <div class="img3">      <!-- Start of img2 -->
+        
+            <a target="_blank" href="images/Senuri_Student3.jpg">
+                
+            <img class="image3" src="images/Senuri_Student3.jpg" alt="Student3 Senuri">
+                <span class="tooltiptext"> <b> I'm Senuri Ranasinghe.</b><br> <i>( Student 3 )</i>
+                </span>
+                
+            </a>
+        </div>
+                
+           </div>
+        </div>
+    </div>
+
+    <!--Has the footer and my information-->
+	<div class="bottom">
+        <div class="myInfo">
+            <p id="paraMyInfo">
+                Hey! I'm Senuri. I'm currently following the 
+                Software Engineering degree at Informatics Institute of Technology. As I'm student number 3 
+                of our group I have been given the task of creating the Quiz and a small description 
+                of students in our group coursework. 
+                Click <a href="CV/senuri-CV.html" target="_blank">here</a> to take a look at my CV.
+            </p>
+            <div id="senuriImage">
+                    
+            <!--My image-->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <img class="commonFooter" src="images\footLogo.png" alt="foot logo">
+    </footer>
+
+<!--increse and decrease font -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".font-button").bind("click", function () {
+            var size = parseInt($('body').css("font-size"));
+            if ($(this).hasClass("plus")) {
+                size = size + 2;
+            } else {
+                size = size - 2;
+                if (size <= 10) {
+                    size = 10;
+                }
+            }
+            $('body').css("font-size", size);
+        });
+    });
+</script>
+<!--increse and decrease font -->
+<a class="font-button plus">A+</a> <a class="font-button minus">A-</a>
+ 
+
+</body>
+
+</html>

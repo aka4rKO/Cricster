@@ -1,0 +1,218 @@
+<html>
+    <head>
+        
+    <title> Cricster | Questions </title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+     
+    <link rel="stylesheet" href="css/commonStyle.css">
+    <link rel="stylesheet" type = "text/css" href = "css/Question.css">
+        
+        
+    <script src="javascript/Question.js"></script>
+    <script src="javascript/bottom.js"></script>
+   
+        
+        
+    </head>
+    
+    <body>
+        
+        <!--Button to Top of the web page -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <!--Showcase with the navigation bar-->
+	<div class="showcase">
+
+        <header>
+
+        <!--Common top navigation and logo-->
+        <div class="commonTop">
+
+                <!-- Alligning purpose -->
+                <div class="commonTop-width">
+    
+                    <!--Logo-->
+                    <div id="logoDiv">
+                        <img id="logo" src="images\NewLogo.png">
+                    </div>
+    
+                    <!--Navigation links-->
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="https://goo.gl/uaN9up" target="_blank">Images</a></li>
+                            <li><a href="MainQuiz.html">Quiz</a></li>
+                            <li><a href="store.html">Store</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        
+        <!--Showcase image-->
+        <div id="showcaseText">
+            <h3 class="title2"><center> You have Entered the Quiz. Follow the Instructions 
+            given below, Before Starting the Quiz.</center></h3>
+                   
+            <ol class = "list1">   
+                <li> Read the instructions before the time time runs out.</li>
+                <li> Read the Questions carefully and choose the correct answer.</li>
+                <li> You have to answer 10 questions. </li>
+                <li> You Will get 2 points for each correct answer. </li>
+                <li> You will get -1 point for each wrong answer. </li>
+                <li> Total mark is 20.</li>
+                <li> You have only 20 minutes to end this Questionnaire.</li>
+            </ol>
+        </div>
+    </div>
+ 
+        <!--============================================================================================ --> 
+    <!-- TIMER GRID -->
+    <div class="grid-container">
+
+            <!-- JavaScript part for the timer -->
+            <div id="quiz-time-left"></div>     
+        
+    </div>
+        <!--============================================================================================ -->
+        
+        <div class="grid-container1">
+            <div class="grid1">
+                 
+                
+                <form class="quiz" name="quiz">
+                    <h4>1. Which cricketer has scored the highest individual score in first-class cricket? </h4>
+                    
+                    <input type="radio" name="q1" value="DonBradman" id="st3"> a. Don Bradman<br>
+                    <input type="radio" name="q1" value="BrianLara" id="st3"> b. Brian Lara <br>        <!--b-->
+                    <input type="radio" name="q1" value="LaneHutton" id="st3"> c. Lane Hutton <br> 
+                    <input type="radio" name="q1" value="GarySobers" id="st3"> d. Gary Sobers<br>
+                    
+                    <h4>2. Who won the T-20 World Cup in 2016? </h4>
+                    
+                    <input type="radio" name="q2" value="WestIndies" id="st3"> a. West Indies<br>       <!--a-->
+                    <input type="radio" name="q2" value="Srilanka" id="st3"> b. Sri Lanka <br>
+                    <input type="radio" name="q2" value="India" id="st3"> c. India <br> 
+                    <input type="radio" name="q2" value="Pakistan" id="st3"> d. Pakistan <br>
+                     
+                    <h4>3. Who is the highest wicket taker in the history of test cricket? </h4>
+                    
+                    <input type="radio" name="q3" value="ShaneWarne" id="st3"> a. Shane Warne<br>       <!--d-->
+                    <input type="radio" name="q3" value="DaleSteyn" id="st3"> b. Dale Steyn <br>
+                    <input type="radio" name="q3" value="GlennMcgrath" id="st3"> c. Glenn Mcgrath <br> 
+                    <input type="radio" name="q3" value="MuttiahMuralitharan" id="st3"> d. Muttiah Muralitharan <br>
+                    
+                    <h4>4. Who won the Asia Cup Cricket Tournament 2010? </h4>
+                    
+                    <input type="radio" name="q4" value="Bangladesg" id="st3"> a. Banladesh<br>       <!--c-->
+                    <input type="radio" name="q4" value="Srilanka" id="st3"> b. Sri Lanka <br>
+                    <input type="radio" name="q4" value="India" id="st3"> c. India <br> 
+                    <input type="radio" name="q4" value="Pakistan" id="st3"> d. Pakistan <br>
+                    
+                    <h4>5. Which cricketer took a hat-trick of wickets in his first three balls in a Test match? </h4>
+                    
+                    <input type="radio" name="q5" value="MatthewHoggard" id="st3"> a.  Matthew Hoggard (England)<br>       <!--d-->
+                    <input type="radio" name="q5" value="RanganaHerath" id="st3"> b. Rangana Herath (Sri Lanka) <br>
+                    <input type="radio" name="q5" value="IrfanPathan" id="st3"> c. Irfan Pathan (India) <br> 
+                    <input type="radio" name="q5" value="NuwanZoysa" id="st3"> d. Nuwan Zoysa (Sri Lanka) <br>
+                
+                     <h4>6. Which West Indian fast bowler was known as “Hit Man”? </h4>
+                    
+                    <input type="radio" name="q6" value="Andy Roberts" id="st3"> a. Andy Roberts<br>       <!--b-->
+                    <input type="radio" name="q6" value="Michael Holding" id="st3"> b. Michael Holding <br>
+                    <input type="radio" name="q6" value="Joel Garner" id="st3"> c. Joel Garner <br> 
+                    <input type="radio" name="q6" value="Colin Croft" id="st3"> d. Colin Croft <br>
+                    
+                    <h4>7.  When and where was the first Test match played? </h4>
+                    
+                    <input type="radio" name="q7" value="Melbourne" id="st3"> a. Melbourne, 1877<br>       <!--a-->
+                    <input type="radio" name="q7" value="Bombay" id="st3"> b. Bombay, 1866 <br>
+                    <input type="radio" name="q7" value="London" id="st3"> c. London, 1886 <br> 
+                    <input type="radio" name="q7" value="Sidney" id="st3"> d. Sidney, 1877 <br>
+
+                    <h4>8. What was the colour of the ball used in the earlier days of women’s cricket in England? </h4>
+                    
+                    <input type="radio" name="q8" value="red" id="st3"> a. Red<br>       <!--d-->
+                    <input type="radio" name="q8" value="green" id="st3"> b. Green<br>
+                    <input type="radio" name="q8" value="white" id="st3"> c. White <br> 
+                    <input type="radio" name="q8" value="blue" id="st3"> d. Blue <br>
+
+                    <h4>9. Which player has scored the most runs in a single Test innings? </h4>
+                    
+                    <input type="radio" name="q9" value="Agarkar" id="st3"> a. Agarkar<br>       <!--b-->
+                    <input type="radio" name="q9" value="BrianLara" id="st3"> b. Brian Lara<br>
+                    <input type="radio" name="q9" value="GrahamGooch" id="st3"> c. Graham Gooch <br> 
+                    <input type="radio" name="q9" value="MatthewHayden" id="st3"> d. Matthew Hayden <br>
+
+                    <h4>10. When will the next ICC Cricket World Cup be held? </h4>
+                    
+                    <input type="radio" name="q10" value="2023" id="st3"> a. 2023<br>       <!--c-->
+                    <input type="radio" name="q10" value="2022" id="st3"> b. 2022<br>
+                    <input type="radio" name="q10" value="2019" id="st3"> c. 2019 <br> 
+                    <input type="radio" name="q10" value="2020" id="st3"> d. 2020 <br>
+                    
+                    
+                    <input class="btn" type="button" value="Save and Submit" onclick="check();">
+                
+                </form>
+                
+                
+            </div>
+                            <!-- *************************************************************************** -->
+
+            
+            <div class="grid2">
+            
+                <div id="new">
+                    <h3 id="head"> Correct Answers of the Quiz ! </h3>
+        
+                    <p id="new1"></p> <p id="new2"></p> <p id="new3"></p> <p id="new4"></p> <p id="new5"></p>
+
+                    <p id="new6"></p> <p id="new7"></p> <p id="new8"></p> <p id="new9"></p> <p id="new10"></p> 
+                </div>
+
+                <div id="final">
+                    <p id="number-correct"> </p>
+                    <p id="number-incorrect"></p>
+                    <p id="point1"></p>
+                    <p id="point2"></p>
+
+                </div>
+
+                <div id="after-submit">
+                    <p id="show-messege"></p>
+                    <img id="picture">        
+                </div>
+                    
+            </div>
+                
+            </div>
+        
+        <footer>
+            <img class="commonFooter" src="images\footLogo.png" alt="foot logo">
+        </footer>
+
+        
+<!--increse and decrease font -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".font-button").bind("click", function () {
+            var size = parseInt($('body').css("font-size"));
+            if ($(this).hasClass("plus")) {
+                size = size + 2;
+            } else {
+                size = size - 2;
+                if (size <= 10) {
+                    size = 10;
+                }
+            }
+            $('body').css("font-size", size);
+        });
+    });
+</script>
+<!--increse and decrease font -->
+ <a class="font-button plus">A+</a> <a class="font-button minus">A-</a>
+
+    </body>
+</html>

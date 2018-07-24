@@ -1,0 +1,116 @@
+/*-----Showcase style-----*/
+.showcase{
+    display: grid;
+    grid-template-rows: 1fr 3.5fr;
+    background: url('../images/cricket stadium.jpg') no-repeat -20px -190px;
+	background-size: 1400px;
+}
+
+#showcaseText{
+    font-family: 'permanent_markerregular', 'Roboto Condensed', sans-serif;
+    color: #fff;
+    font-size: 60px;
+    margin: auto;
+}
+
+/*------Content styles-----*/
+.content{
+    display: grid;
+    grid-gap: 1em;
+    max-width: 80%;
+    justify-self: center;
+    margin: 1em auto;
+    grid-template-columns: 1fr 1fr 0.55fr;
+    grid-auto-rows: minmax(250px, auto);
+}
+
+.box1{
+    background-color: #428581;
+    grid-column: 1;
+    grid-row: 1/3;
+    color: #fff;
+    font-size: 17px;
+}
+
+.box2{
+    background-color: #428581;
+    grid-column: 2;
+    grid-row: 1/3;
+    color: #fff;
+    font-size: 17px; 
+}
+
+/*-----Table styles-----*/
+.box1 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;        
+}
+
+.box2 p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;        
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 2.4em;
+}
+
+td{
+    padding: 0.5em 2em 0.5em 2em;
+    text-align: center;
+}
+
+th{
+    padding-bottom: 1em;
+}
+
+#posOne{
+    font-size: 20px;
+    background-color: #678c2f;
+    font-weight: bold;
+}
+
+#posOneOdi{
+    font-size: 20px;
+    background-color: dodgerblue;
+    font-weight: bold;
+}
+
+/*-----Form styling------*/
+.box3{
+    grid-column: 3;
+    grid-row: 1 / 3;
+    background-color: #214342;
+    color: #fff;
+}
+
+.ratingForm{
+    font-size: 17px;
+}
+
+.ratingForm textarea{
+	border: none;
+    resize: none;
+    border-radius: 12px;
+    padding: 3px 33px 3px 5px;
+}
+
+/*Form heading*/
+.ratingForm p{
+	text-align: center;
+	font-size: 22px;
+	color: #60c5c1;
+	font-weight: bold;
+}
+
+/*Divs in the form*/
+.ratingForm > div{
+	margin: 15px 0px 0px 15px;
+}

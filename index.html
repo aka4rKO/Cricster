@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/commonStyle.css">
+
+
+
+	<title>Cricster | Welcome!</title>
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+	<!--Button to Top of the web page -->
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+	<!--Showcase with the navigation bar-->
+	<div class="showcase">
+
+		<header>
+
+		<!--Common top navigation and logo-->
+		<div class="commonTop">
+
+				<!-- Alligning purpose -->
+				<div class="commonTop-width">
+
+					<!--Logo-->
+					<div id="logoDiv">
+						<img id="logo" src="images\NewLogo.png">
+					</div>
+
+					<!--Navigation links-->
+					<nav>
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="https://goo.gl/uaN9up" target="_blank">Images</a></li>
+							<li><a href="MainQuiz.html">Quiz</a></li>
+							<li><a href="store.html">Store</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+
+		<!--Showcase image-->
+		<div id="showcaseText">
+			Are you ready to take the field?
+		</div>
+	</div>
+
+	<!--Main content including the form-->
+	<div class="content">
+
+		<!--T20i team rankings-->
+		<div class="box1">
+			<p>Men's T20I Team Rankings</p>
+			<table>
+				<tr>
+					<th>Position</th>
+					<th>Team</th>
+					<th>Rating</th>
+				</tr>
+				<tr id="posOne">
+					<td>1</td>
+					<td>Pakistan</td>
+					<td>126</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Australia</td>
+					<td>126</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>India</td>
+					<td>122</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>New Zealand</td>
+					<td>116</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>West Indies</td>
+					<td>115</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>England</td>
+					<td>114</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>South Africa</td>
+					<td>111</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Sri Lanka</td>
+					<td>91</td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Afghanistan</td>
+					<td>88</td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Bangladesh</td>
+					<td>72</td>
+				</tr>
+			</table>
+		</div>
+
+		<!--Odi team rankings-->
+		<div class="box2">
+				<p>Men's ODI Team Rankings</p>
+				<table>
+					<tr>
+						<th>Position</th>
+						<th>Team</th>
+						<th>Rating</th>
+					</tr>
+					<tr id="posOneOdi">
+						<td>1</td>
+						<td>India</td>
+						<td>122</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>South Africa</td>
+						<td>117</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>England</td>
+						<td>116</td>
+					</tr>
+					<tr>
+						<td>4</td>
+						<td>New Zealand</td>
+						<td>115</td>
+					</tr>
+					<tr>
+						<td>5</td>
+						<td>Australia</td>
+						<td>112</td>
+					</tr>
+					<tr>
+						<td>6</td>
+						<td>Pakistan</td>
+						<td>96</td>
+					</tr>
+					<tr>
+						<td>7</td>
+						<td>Bangladesh</td>
+						<td>90</td>
+					</tr>
+					<tr>
+						<td>8</td>
+						<td>Sri Lanka</td>
+						<td>84</td>
+					</tr>
+					<tr>
+						<td>9</td>
+						<td>West Indies</td>
+						<td>76</td>
+					</tr>
+					<tr>
+						<td>10</td>
+						<td>Afghanistan</td>
+						<td>55</td>
+					</tr>
+				</table>
+		</div>
+
+		<!--Form-->
+		<div class="box3">
+			<form class="ratingForm" onsubmit="return validateForm(this);">
+				<p>Rate our website</p>
+					<div>
+						<label for="firstName">First Name</label>
+						<input type="text" id="firstName" name="fName" placeholder="Enter first name">
+					</div>
+					<div>
+						<label for="lastName">Last Name</label>
+						<input type="text" id="lastName" name="lName" placeholder="Enter last name">
+					</div>
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" id="email" name="eMail" placeholder="eg: example@gmail.com">
+					</div>
+					<div>
+						<label>Rating</label>
+						<div>
+							<input type="radio" id="excellent" name="rating" value="Excellent">Excellent <br>
+							<input type="radio" id="good" name="rating" value="Good">Good <br>
+							<input type="radio" id="average" name="rating" value="Average">Average <br>
+							<input type="radio" id="poor" name="rating" value="Poor">Poor <br>
+							<input type="radio" id="veryPoor" name="rating" value="Very poor">Very poor
+						</div>
+					</div>
+					<div>
+						<label for="comment">Comments</label>
+						<textarea id="comment" name="comment" placeholder="Leave a comment here" rows="5"></textarea>
+					</div>
+						<input class="button" type="submit" name="" value="Submit">
+			</form>
+		</div>
+	</div>
+	
+
+
+	<!--Has the footer and my information-->
+	<div class="bottom">
+		<div class="myInfo">
+			<p id="paraMyInfo">
+				Hey! I'm Akram. I'm currently following the
+				Software Engineering degree at Informatics Institute of Technology. As I'm student number 2
+				of our group I have been given the task of creating the main page for our group website.
+				Click <a href="CV/akram-CV.html" target="_blank">here</a> to take a look at my CV.
+			</p>
+			<div id="myImage">
+
+				<!--My image-->
+			</div>
+		</div>
+	</div>
+	<footer>
+		<img class="commonFooter" src="images\footLogo.png" alt="foot logo">
+	</footer>
+
+<!--increse and decrease font -->
+<a class="font-button plus">A+</a> <a class="font-button minus">A-</a>
+
+<!--increse and decrease font -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".font-button").bind("click", function () {
+            var size = parseInt($('body').css("font-size"));
+            if ($(this).hasClass("plus")) {
+                size = size + 2;
+            } else {
+                size = size - 2;
+                if (size <= 10) {
+                    size = 10;
+                }
+            }
+            $('body').css("font-size", size);
+        });
+    });
+</script>
+
+	<!--Javascript-->
+
+	<script src="javascript/myJavascript.js"></script>
+	<script src="javascript/bottom.js"></script>
+
+
+
+</body>
+</html>

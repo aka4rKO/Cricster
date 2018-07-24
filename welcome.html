@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cricster | Welcome!</title>
+	<meta http-equiv="refresh" content="4; URL=index.html">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/welcome.css">
+	<link rel="stylesheet" type="text/css" href="css/commonStyle.css">
+
+</head>
+
+<body>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<h1 align="center">WELCOME TO CRICSTER.COM</h1>
+
+	<div class="membergrid">
+		<div class="box member1">
+				<p>STUDENT 1 </P>
+        <img src="images/Supun_round.png" alt="supun sandeeptha" height="250px;" width="250px;">
+				<p>Hey! I'm Supun Sandeeptha. I'm currently following the
+				Software Engineering degree at Informatics Institute of Technology. As I'm student number 1
+				of our group I have been given the task of creating the Welcome Page and the Store web page for our group website.</p>
+				<p>UOW Number: w1673700</p>
+				<p>IIT Number: 2017180</p>
+				<p>E-Mail		 : supun.2017180@iit.ac.lk</p>
+		</div>
+		<div class="box member2">
+			<p>STUDENT 2 </P>
+			<img src="images/myImage.png" alt="Akram Azarm" height="250px;" width="250px;">
+			<p>Hey! I'm Akram. I'm currently following the
+				Software Engineering degree at Informatics Institute of Technology. As I'm student number 2
+				of our group I have been given the task of creating the main page for our group website.</p>
+			<p>UOW Number: w1673707</p>
+			<p>IIT Number: 2017194 </p>
+			<p>E-Mail	   : azarm.2017194@iit.ac.lk</p>
+		</div>
+
+		<div class="box member3">
+			<P><p>STUDENT 3 </P>
+			<img src="images/Senuri_round.png" alt="Senuri Ranasinghe" height="250px;" width="250px;">
+			<p> Hey! I'm Senuri. I'm currently following the 
+                Software Engineering degree at Informatics Institute of Technology. As I'm student number 3 
+                of our group I have been given the task of creating the Quiz and a small description 
+                of students in our group coursework.</p>
+			<p>UOW Number: w1673709</p>
+			<p>IIT Number: 2017198 </p>
+			<p>E-Mail	   : senuri.2017198@iit.ac.lk</p>
+		</div>
+	</div>
+
+	<footer>
+		<img class="commonFooter" src="images\footLogo.png" alt="foot logo">
+	</footer>
+
+<!--increse and decrease font -->
+<a class="font-button plus">A+</a> <a class="font-button minus">A-</a>
+
+<!--increse and decrease font -->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $(".font-button").bind("click", function () {
+            var size = parseInt($('body').css("font-size"));
+            if ($(this).hasClass("plus")) {
+                size = size + 2;
+            } else {
+                size = size - 2;
+                if (size <= 10) {
+                    size = 10;
+                }
+            }
+            $('body').css("font-size", size);
+        });
+    });
+</script>
+
+	<!--Javascript-->
+	<script src="javascript/myJavascript.js"></script>
+	<script src="javascript/bottom.js"></script>
+
+
+</body>
+</html>
